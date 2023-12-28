@@ -7,16 +7,11 @@
 #include <queue>
 #include <random>
 
-// try 5
-
 using namespace std;
-
 typedef long long ll;
 
 int dp[20][1048576];
-
 int t, n;
-
 int helper_fun(int numbe, int mask) {
 
     if (dp[numbe][mask] != -1) {
